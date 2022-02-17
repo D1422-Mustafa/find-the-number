@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="guess__title">
+        <h1>GUESS THE NUMBER (1-100)</h1>
+    </div>
+    <div id="thinking_man">
+        <img src="./assets/soru-isareti emoji.jpg" alt="soru_emoji" height="10%" width="10%">
+    </div>
+    <div id="input__area">
+        <input type="number" name="number" id="number">
+        <button id="check">CHECK</button>
+    </div>
+    <div id="write__number">
+        <h4 id="explanation">Write the number.</h4>
+    </div>
+    <div id="attemps">
+        <p id="explain">Number of attemps:</p>   
+        <p id="number__attemps">10</p>
+    </div>
+    <div id="result">
+        <img src="./assets/online-yarismalara-katilarak-para-kazanmak_1-825x450.jpg" alt="win" height="20%" width="20%">
+    </div>
+    <div id="reset__button">
+        <button type="reset" id="reset" onclick="window.location.reload(false)">RESET</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
